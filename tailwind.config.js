@@ -4,7 +4,7 @@
   theme: {
     extend: {
       fontFamily: {
-     //   overpass: ['Overpass', 'sans-serif'],
+        overpass: ['Overpass', 'sans-serif'],
       },
     },
   },
