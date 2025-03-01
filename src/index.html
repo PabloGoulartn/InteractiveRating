@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rating</title>
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum vel, provident at placeat ducimus saepe aliquid libero molestias totam facilis omnis, quasi eius, quos et? Voluptatum excepturi maiores repellendus?</p>
+<body class="bg-[hsl(216,12%,8%)] flex justify-center items-center h-screen font-overpass font-normal text-[15px]">
+    <main class="bg-[hsl(213,19%,18%)] w-11/12 sm:w-[420px] h-[420px] flex flex-col justify-center rounded-[40px]">
+        <picture class="bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 flex justify-center items-center ml-9 mb-8">
+            <img src="images/icon-star.svg" alt="" aria-hidden="true" class="">
+        </picture>
+
+        <section class="px-6 sm:px-9">
+            <h1 class="font-bold text-white text-3xl mb-4">How did we do?</h1>
+            <p class="text-[hsl(217,12%,63%)]">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </section>
+
+        <section aria-label="Rating" class="flex justify-between sm:w-[336px] my-7 mx-6 sm:ml-9 font-bold">
+            <button type="button" class="text-[hsl(217,12%,63%)] bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 sm:w-12 sm:h-12 focus:bg-[hsl(25,97%,53%)] hover:bg-white  hover:text-black focus:text-black">1</button>
+            <button type="button" class="text-[hsl(217,12%,63%)] bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 sm:w-12 sm:h-12 focus:bg-[hsl(25,97%,53%)] hover:bg-white  hover:text-black focus:text-black">2</button>
+            <button type="button" class="text-[hsl(217,12%,63%)] bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 sm:w-12 sm:h-12 focus:bg-[hsl(25,97%,53%)] hover:bg-white  hover:text-black focus:text-black">3</button>
+            <button type="button" class="text-[hsl(217,12%,63%)] bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 sm:w-12 sm:h-12 focus:bg-[hsl(25,97%,53%)] hover:bg-white hover:text-black focus:text-black">4</button>
+            <button type="button" class="text-[hsl(217,12%,63%)] bg-[hsl(211,21%,21%)] rounded-full w-11 h-11 sm:w-12 sm:h-12 focus:bg-[hsl(25,97%,53%)] hover:bg-white hover:text-black focus:text-black">5</button>
+        </section>
+
+        <form class="sm:w-[420px] text-center">
+            <button type="button" class="cursor-pointer bg-[hsl(25,97%,53%)] w-11/12 sm:w-5/6 h-11 rounded-[50px] font-bold focus:bg-white">Submit</button>
+        </form>
+
+        <script src="JS/index.js"></script>
+    </main>
 </body>
 </html>
